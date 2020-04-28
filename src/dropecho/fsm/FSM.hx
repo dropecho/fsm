@@ -1,4 +1,4 @@
-package dropecho.ai.fsm;
+package dropecho.fsm;
 
 @:expose("fsm.FSM")
 class FSM<T> {

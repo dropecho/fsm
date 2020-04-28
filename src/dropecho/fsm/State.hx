@@ -1,4 +1,4 @@
-package dropecho.ai.fsm;
+package dropecho.fsm;
 
 @:expose("fsm.State")
 class State<T> {

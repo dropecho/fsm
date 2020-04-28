@@ -1,12 +1,12 @@
 {
-  "name": "@dropecho/lib_example",
-  "version": "0.1.8",
-  "description": "An example haxelib that outputs to multiple targets.",
+  "name": "@dropecho/fsm",
+  "version": "0.0.0",
+  "description": "A finite state machine implemenation.",
   "author": "vantreeseba <vantreeseba@gmail.com>",
-  "repository": "github:dropecho/lib_example",
-  "main": "dist/js/index.js",
+  "repository": "github:dropecho/fsm",
+  "main": "dist/js/FSM.js",
   "files": [
-    "dist/js/index.js"
+    "dist/js/FSM.js"
   ],
   "publishConfig": {
     "access": "public"

@@ -1,16 +1,17 @@
 {
-  "name": "DEAgent",
-  "url": "",
-  "license": "MIT",
-  "tags": [
-    "ai",
-    "game"
-  ],
-  "description": "This library provides AI utilities for games.",
-  "version": "0.0.1",
-  "releasenote": "Initial release",
-  "contributors": [
-    "vantreeseba"
-  ],
-  "dependencies": {}
+	"name": "dropecho.FSM",
+	"description": "A finite state machine implementation.",
+	"classPath": "src",
+	"dependencies": {},
+	"url": "https://github.com/dropecho/fsm/",
+	"contributors": [
+		"vantreeseba"
+	],
+	"version": "0.0.0",
+	"releasenote": "",
+	"tags": [
+		"game",
+    "fsm"
+	],
+	"license": "MIT"
 }

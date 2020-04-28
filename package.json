@@ -1,6 +1,6 @@
 {
   "name": "@dropecho/fsm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A finite state machine implemenation.",
   "author": "vantreeseba <vantreeseba@gmail.com>",
   "repository": "github:dropecho/fsm",

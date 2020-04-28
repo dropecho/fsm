@@ -1,0 +1,16 @@
+{
+  "name": "DEAgent",
+  "url": "",
+  "license": "MIT",
+  "tags": [
+    "ai",
+    "game"
+  ],
+  "description": "This library provides AI utilities for games.",
+  "version": "0.0.1",
+  "releasenote": "Initial release",
+  "contributors": [
+    "vantreeseba"
+  ],
+  "dependencies": {}
+}

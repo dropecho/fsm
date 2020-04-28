@@ -1,0 +1,24 @@
+{
+  "name": "@dropecho/lib_example",
+  "version": "0.1.8",
+  "description": "An example haxelib that outputs to multiple targets.",
+  "author": "vantreeseba <vantreeseba@gmail.com>",
+  "repository": "github:dropecho/lib_example",
+  "main": "dist/js/index.js",
+  "files": [
+    "dist/js/index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "haxelib run munit t",
+    "build": "haxe build.hxml",
+    "build-changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "bump": "npm version --no-git-tag-version",
+    "haxe:submit": "haxelib run submit",
+    "version": "npm run build-changelog",
+    "postversion": "git add . && git commit -m 'version' && npm run haxe:submit && npm publish"
+  }
+}

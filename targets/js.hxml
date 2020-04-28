@@ -1,0 +1,6 @@
+--times
+
+-cp src
+-js dist/js/FSM.js
+
+--macro include('',true, null, ['src'])

@@ -1,0 +1,6 @@
+--times
+
+-cp src
+-js bin/js/dropecho.js
+
+--macro include('',true, null, ['src'])

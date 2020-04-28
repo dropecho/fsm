@@ -1,6 +1,6 @@
 package dropecho.fsm;
 
-@:expose("fsm.State")
+@:expose("State")
 class State<T> {
 	public var action:T->Void;
 	public var transitions:Array<T->State<T>>;

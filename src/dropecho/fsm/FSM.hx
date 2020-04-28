@@ -1,6 +1,6 @@
 package dropecho.fsm;
 
-@:expose("fsm.FSM")
+@:expose("FSM")
 class FSM<T> {
 	public var globalState:State<T>;
 	public var currentState:State<T>;

@@ -14,7 +14,7 @@
   "license": "MIT",
   "scripts": {
     "test": "haxelib run munit t",
-    "build": "haxe build.hxml",
+    "build": "haxe build.hxml && cp dist/js/FSM.js docs",
     "build-changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
     "bump": "npm version --no-git-tag-version",
     "haxe:submit": "haxelib run submit",

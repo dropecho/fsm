@@ -1,5 +1,7 @@
 FSM - A finite state machine implementation.
 ===========
+[Demo](https://dropecho.github.io/FSM)
+
 
 ### Usage
 

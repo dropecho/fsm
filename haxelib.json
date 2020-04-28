@@ -1,5 +1,5 @@
 {
-	"name": "dropecho.FSM",
+	"name": "dropecho.fsm",
 	"description": "A finite state machine implementation.",
 	"classPath": "src",
 	"dependencies": {},

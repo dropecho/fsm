@@ -7,11 +7,11 @@
 	"contributors": [
 		"vantreeseba"
 	],
-	"version": "0.0.0",
-	"releasenote": "",
+	"version": "0.2.0",
+	"releasenote": "version",
 	"tags": [
 		"game",
-    "fsm"
+		"fsm"
 	],
 	"license": "MIT"
 }
